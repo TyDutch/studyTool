@@ -8,7 +8,7 @@ from sys import *
 class App():
     def __init__(self):
         self.root = tb.Window(themename="darkly")
-        self.root.geometry('1280x720')
+        self.root.geometry('600x600')
         self.root.title('Study Tool')
         
         self.mainframe = tk.Frame(self.root, background='white')
